@@ -21,7 +21,8 @@ cd /tmp/Radiano
 sudo ./install.sh
 ```
 ##Screenshots
-Grub-emu isn't working for me so 
+Taken with camera, trying to get grub-emu to work in elementary OS and EFI.
+
 
 
 ##Removing
