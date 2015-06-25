@@ -18,6 +18,7 @@ Run these commands one by one
 ```sh
 git clone https://github.com/Jguer/Radiano-Grub-Theme.git /tmp/Radiano
 cd /tmp/Radiano
+chmod +x install.sh
 sudo ./install.sh
 ```
 ##Screenshots
