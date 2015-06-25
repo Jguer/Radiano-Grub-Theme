@@ -1,0 +1,73 @@
+# GRUB2 gfxmenu Radiano theme.
+# Original created by Legendary Bibo
+# Icons by SWOriginal
+# Modified and updated by Jguer
+
+# Global Property
+title-text: ""
+title-font: "DroidSans 24"
+title-color: "#333333"
+message-font: "Fixed Regular 10"
+message-color: "#333333"
+message-bg-color: "#f2f2f2"
+desktop-image: "background.png"
+desktop-color: "#f5f5f5"
+terminal-box: "term_bkg_*.png"
+terminal-font: "Fixed Regular 10"
+
+
+
+# Show the boot menu
++ boot_menu {
+		left = 5%
+		width = 90%
+		top = 60
+		height = 65%
+		item_font = "DroidSans 24"
+		selected_item_font = "DroidSans 24"
+		item_color = "#363636"
+		selected_item_color = "#efefef"
+		item_height = 132
+		item_padding = 0
+		item_spacing = 20
+		icon_width = 128
+		icon_height = 128
+		item_icon_space = 20
+		selected_item_pixmap_style= "select_bkg_*.png"
+		menu_pixmap_style = "menu_bkg_*.png"
+		scrollbar = false
+		scrollbar_width = 17
+		scrollbar_thumb = "sb_thumb_*.png"
+		scrollbar_frame = "sb_frame_*.png"
+}
+
++ image {
+		top = 100%-90
+		left = 50%-320
+		width = 640
+		height = 90
+		file = "info.png"
+}
+
++ image {
+		top = 0
+		left = 50%-200
+		width = 400
+		height = 40
+		file = "title.png"
+}
+
+# Show a styled horizontal progress bar
++ progress_bar {
+		id = "__timeout__"
+		left = 40%
+		width = 20%
+		top = 100%-140
+		height = 5
+		show_text = false
+		font = "DroidSans 24"
+		text_color = "255, 255, 255"
+		text = ""
+		bar_style = "progress_bar_*.png"
+		highlight_style = "progress_highlight_*.png"
+}
